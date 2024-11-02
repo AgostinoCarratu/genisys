@@ -3,11 +3,11 @@ import React from "react";
 const Student = () => {
   return (
     <div className="container mx-auto ">
-      <p className="text-gray-500 text-base lg:text-xl font-medium uppercase">
-        Top Studying
+      <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
+        WHY CHOOSE US
       </p>
-      <p className="text-gray-800 text-3xl lg:text-5xl font-medium capitalize">
-        Our students say
+      <p className=" text-3xl lg:text-5xl font-semibold text-gray-500 text-center mt-3">
+        Our Values
       </p>
       <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5 py-10 lg:py-20">
         <img src="/assets/student.svg" alt="" />
