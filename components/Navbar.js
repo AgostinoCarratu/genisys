@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <div className='pb-6 sm:pb-8 md:pb-12'>
-        <div className="flex flex-row lg:justify-between items-center gap-5">
-            <div>
+    <div className='shadow-box'>
+        <div className="py-3 flex flex-row lg:justify-between items-center gap-5">
+            <div className='pl-3'>
               <Image
                 src="/assets/logo-con-testo.png"
                 width={120}

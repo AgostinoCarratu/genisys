@@ -1,16 +1,22 @@
 import React from "react";
+import Image from "next/image";
 
 const Student = () => {
   return (
-    <div className="container mx-auto ">
-      <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
-        WHY CHOOSE US
+    <div className="container mx-auto max-w-[1100px]">
+      <p className="text-base lg:text-4xl font-medium text-gray-500 text-center">
+        LA NOSTRA MISSION
       </p>
-      <p className=" text-3xl lg:text-5xl font-semibold text-gray-500 text-center mt-3">
-        Our Values
-      </p>
+
       <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5 py-10 lg:py-20">
-        <img src="/assets/student.svg" alt="" />
+        <div className="w-12 h-8 rounded-lg">
+          <Image
+            src="/assets/unnamed.jpg"
+            height={100}
+            width={100}
+            alt="Picture of the author"
+          />
+        </div>
         <div className="flex flex-col gap-5 items-start">
           <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">Martin Watson</p>
           <div className="flex items-center gap-2">
