@@ -1,22 +1,32 @@
 import Cta from "@/components/Cta";
 import Hero from "@/components/Hero";
 import Values from "@/components/Values";
-import Teacher from "@/components/Teachers";
-import Student from "@/components/Student";
+import Mission from "@/components/Mission";
 import Navbar from "@/components/Navbar";
 
 import Image from "next/image";
 import MoreInfoModal from "@/components/MoreInfoModal";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
       <Hero/>
       <Values/>
-      <Student/>
-      <Cta/>
+      {/* <section className="bg-primary_sunglow_transparent lg:py-16">
+        <Mission/>
+      </section> */}
+
+      <section className="bg-primary_skyblue_transparent lg:py-16">
+        <Cta/>
+      </section>
+
+      <section className="lg:py-16">
+        <Footer/>       
+      </section>
+
+
       {/* <MoreInfoModal/> 
       Questa si deve aggiungere dopo. Devo vedere il fatto della Disclosure di headlessui*/}
     </>

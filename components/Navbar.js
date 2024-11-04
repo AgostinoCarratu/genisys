@@ -1,17 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
+import { Julius_Sans_One } from 'next/font/google'
+
+const julius_sans_one = Julius_Sans_One({
+  subsets: ['latin'],
+  weight: ['400'],
+  display: 'swap',
+})
 
 const Navbar = () => {
   return (
     <div className='shadow-box'>
-        <div className="py-3 flex flex-row lg:justify-between items-center gap-5">
-            <div className='pl-3'>
-              <Image
-                src="/assets/logo-con-testo.png"
-                width={120}
-                height={80}
-                alt="logo"
-              />
+        <div className="flex flex-row lg:justify-between items-center gap-5">
+            <div className='flex flex-row items-center'>
+              <div>
+                <Image
+                  src="/assets/atom-icon-svgrepo-com.svg"
+                  width={40}
+                  height={40}
+                  alt="logo"
+                />
+              </div>
+              <div>
+                <h1 className={"text-xl " + julius_sans_one.className}>&nbsp;Genisys</h1> 
+              </div>
             </div>
 
             <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
