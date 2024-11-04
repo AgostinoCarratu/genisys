@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Values = () => {
   return (
-    <div className="container py-10 max-w-[1100px] mx-auto">
+    <div className="container max-w-[1100px] mx-auto">
       <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-slate-600 text-center">
         PERCHÉ SCEGLIERE NOI
       </p>
       <p className=" text-2xl lg:text-4xl font-semibold text-slate-800 text-center mt-3">
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 lg:pt-20">
         <div className="flex flex-col gap-5 items-center">
           <div>
             <Image

@@ -10,10 +10,9 @@ const julius_sans_one = Julius_Sans_One({
 
 const Navbar = () => {
   return (
-    <div className='shadow-box'>
-        <div className="flex flex-row lg:justify-between items-center gap-5">
-            <div className='flex flex-row items-center'>
-              <div>
+        <div className="flex flex-row lg:justify-between items-center gap-5 pb-8 lg:pb-16">
+            <div className='flex flex-row items-center justify-center pl-4 lg:pl-10'>
+              <div className='w-9 lg:w-[40px]'>
                 <Image
                   src="/assets/atom-icon-svgrepo-com.svg"
                   width={40}
@@ -22,7 +21,7 @@ const Navbar = () => {
                 />
               </div>
               <div>
-                <h1 className={"text-xl " + julius_sans_one.className}>&nbsp;Genisys</h1> 
+                <h1 className={"text-lg lg:text-xl " + julius_sans_one.className}>&nbsp;Genisys</h1> 
               </div>
             </div>
 
@@ -41,7 +40,6 @@ const Navbar = () => {
               {/* Placeholder per il flex align */}
             </div>
         </div>
-    </div>
   )
 }
 

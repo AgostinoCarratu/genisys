@@ -12,11 +12,17 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <Hero/>
-      <Values/>
-      {/* <section className="bg-primary_sunglow_transparent lg:py-16">
+      <section className="bg-primary_green_transparent pt-4 pb-8 lg:pt-8 rounded-b-[50px] lg:pb-16 lg:rounded-b-[100px] drop-shadow-lg">
+        <Hero/>    
+      </section>
+
+      <section className="lg:py-16">
+        <Values/>
+      </section>
+
+      <section className="bg-primary_sunglow_transparent lg:py-16">
         <Mission/>
-      </section> */}
+      </section>
 
       <section className="bg-primary_skyblue_transparent lg:py-16">
         <Cta/>
