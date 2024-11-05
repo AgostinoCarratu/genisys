@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="mx-auto max-w-[1200px]">
       <Navbar/>
           <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-3 mx-10">
-            <div className="max-w-[600px] flex flex-grow flex-col items-center lg:items-start gap-2 lg:gap-10">
+            <div className="max-w-[600px] flex flex-grow flex-col items-center lg:items-start gap-5 lg:gap-10">
               <p className="text-center lg:text-left text-slate-800 lg:leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold">
                 La chiave per il <br className="flex"/> tuo <span className="text-primary_green">successo </span> <br className="flex" /> sostenibile
               </p>
