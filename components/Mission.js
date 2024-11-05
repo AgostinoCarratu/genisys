@@ -16,7 +16,7 @@ const Mission = () => {
         <p className="leading-small lg:leading-normal mb-2">Siamo pionieri nella consulenza e nello sviluppo di progetti innovativi e miriamo a:</p>
         <ol className="list-decimal pl-12 leading-relaxed">
           <li className="pl-2 lg:pl-6">Rendere il mondo un posto <span className="font-semibold text-primary_dark">migliore</span></li>
-          <li className="pl-2 lg:pl-6">Preservare l'<span className="font-semibold text-primary_green">integrità</span> del nostro pianeta</li>
+          <li className="pl-2 lg:pl-6">Preservare l&apos;<span className="font-semibold text-primary_green">integrità</span> del nostro pianeta</li>
           <li className="pl-2 lg:pl-6">Favorire la <span className="font-semibold text-primary_dark_seablue">prosperità</span> di ambiente e aziende</li>
         </ol>
       </div>
