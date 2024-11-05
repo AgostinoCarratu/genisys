@@ -44,10 +44,10 @@ const Footer = () => {
           <p className="text-base">Corsi</p>
           <p className="text-base">Blog</p>
         </div>
-        <div className="flex items-center gap-5">
-                <BsFacebook className="text-3xl text-slate-600"/>
-                <BsTwitter className="text-3xl text-slate-600"/>
-                <BsInstagram className="text-3xl text-slate-600"/>
+        <div className="flex flex-row justify-center items-center gap-5">
+                <BsFacebook className="text-white text-3xl text-slate-600"/>
+                <BsTwitter className="text-white text-3xl text-slate-600"/>
+                <BsInstagram className="text-white text-3xl text-slate-600"/>
         </div>
       </div>
     </div>
