@@ -16,19 +16,19 @@ export default function Home() {
         <Hero/>    
       </section>
 
-      <section className="px-10 py-10 lg:py-16">
+      <section className="px-10 py-12 lg:py-16">
         <Values/>
       </section>
 
-      <section className="px-10 py-10 bg-primary_sunglow_transparent lg:py-16">
+      <section className="px-10 py-12 bg-primary_sunglow_transparent lg:py-16">
         <Mission/>
       </section>
 
-      <section className="py-10 px-10 bg-primary_skyblue_transparent lg:py-16">
+      <section className="py-12 px-10 bg-primary_skyblue_transparent lg:py-16">
         <Cta/>
       </section>
 
-      <section className="bg-primary_dark_seablue text-white py-10 lg:py-16">
+      <section className="bg-primary_dark_seablue text-white py-12 lg:py-16">
         <Footer/>       
       </section>
 
