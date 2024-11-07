@@ -20,10 +20,10 @@ const Hero = () => {
             </div>
             <div className="lg:w-[500px]">
               <Image
-                src="/assets/hero-fullres.svg"
+                src="/assets/hero-midres.png"
                 width={500}
                 height={500}
-                alt="Picture of the author"
+                alt="Pianta che cresce, api, mare, sole"
               />
             </div>
           </div>
