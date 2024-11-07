@@ -7,11 +7,18 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import MoreInfoModal from "@/components/MoreInfoModal";
 import Footer from "@/components/Footer";
+import Splashscreen from "@/components/Splashscreen";
 
 
 export default function Home() {
+
+  const showSplash = true
+
   return (
     <>
+
+      {/* Splashscreen componente */}
+
       <section className="bg-primary_green_transparent pt-6 pb-8 lg:pt-8 rounded-b-[50px] lg:pb-16 lg:rounded-b-[100px] drop-shadow-lg">
         <Hero/>    
       </section>

@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google'
 import "./globals.css";
+import SplashScreen from '@/components/SplashScreen';
 
  
 // If loading a variable font, you don't need to specify the font weight
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body
         className={montserrat.className + " antialiased bg-[#fff5f1] mx-auto"}
       >
+        <SplashScreen />
         {children}
       </body>
     </html>

@@ -18,11 +18,11 @@ const Hero = () => {
               </p>
               <button className="text-sm lg:text-lg py-2 lg:py-3 px-6 text-white hover:opacity-70 bg-secondary_dark rounded-full border-none lg:w-52">Affidati a noi</button>
             </div>
-            <div className="lg:w-[450px]">
+            <div className="lg:w-[500px]">
               <Image
-                src="/assets/hero-1.png"
-                width={520}
-                height={520}
+                src="/assets/hero-fullres.svg"
+                width={500}
+                height={500}
                 alt="Picture of the author"
               />
             </div>
