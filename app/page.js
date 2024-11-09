@@ -29,6 +29,7 @@ export default function Home() {
 
       <section className="px-10 py-12 bg-primary_sunglow_transparent lg:py-16">
         <Mission/>
+        {/* <MoreInfoModal /> */}
       </section>
 
       <section className="py-12 px-10 bg-primary_skyblue_transparent lg:py-16">

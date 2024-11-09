@@ -20,8 +20,8 @@ const Values = () => {
             />
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl font-semibold">Consulenza completa</p>
-          <p className="text-base text-gray-500 text-center">
-            Dalla valutazione del pacchetto più adatto all&apos;azienda 
+          <p className="text-base lg:text-lg text-gray-500 text-center">
+            Supportiamo i nostri clienti dalla valutazione del pacchetto più adatto all&apos;azienda fino alla verifica dei risultati ottenuti
           </p>
         </div>
         <div className="flex flex-col gap-3 lg:gap-5 items-center">
@@ -35,7 +35,7 @@ const Values = () => {
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl font-semibold">Tecnici esperti</p>
           <p className="text-base lg:text-lg text-gray-500 text-center">
-            Il nostro team  è composto da figure professionali con anni di esperienza nel settore
+            Il nostro team  è composto da figure professionali con anni di esperienza nel settore dello sviluppo sostenibile
           </p>
         </div>
         <div className="flex flex-col gap-3 lg:gap-5 items-center">
@@ -49,7 +49,7 @@ const Values = () => {
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl font-semibold">Pacchetto social
           </p>
-          <p className="text-base text-gray-500 text-center">
+          <p className="text-base lg:text-lg text-gray-500 text-center">
             Valorizziamo l&apos;impegno delle aziende partner attraverso contenuti social e articoli su testate giornalistiche accreditate
           </p>
         </div>

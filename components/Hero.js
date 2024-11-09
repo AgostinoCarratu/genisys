@@ -14,15 +14,15 @@ const Hero = () => {
               </p>
 
               <p className="text-base text-center sm:text-lg lg:text-2xl font-light lg:text-left text-slate-800">
-                Consulenze e soluzioni per aziende pronte ad <br  className="hidden lg:flex"/> <span className="font-semibold">investire nel futuro</span>
+                Consulenze e soluzioni per aziende <br  className="hidden lg:flex"/> pronte ad <span className="font-semibold">investire nel futuro</span>
               </p>
               <button className="text-sm lg:text-lg p-3 px-6 w-48 lg:py-3 text-white hover:opacity-70 bg-secondary_dark rounded-full border-none lg:w-52">Affidati a noi</button>
             </div>
-            <div className="lg:w-[500px]">
+            <div className="lg:w-[540px]">
               <Image
-                src="/assets/hero-midres.png"
-                width={500}
-                height={500}
+                src="/assets/hero-highrez.svg"
+                width={540}
+                height={540}
                 alt="Pianta che cresce, api, mare, sole"
               />
             </div>
