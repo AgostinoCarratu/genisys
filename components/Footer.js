@@ -12,7 +12,7 @@ const julius_sans_one = Julius_Sans_One({
 const Footer = () => {
   return (
     <div className="container mx-auto">
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 px-10 items-start justify-center max-w-[1200px] mx-auto">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 px-10 items-start justify-center max-w-[1100px] mx-auto">
         <div className="flex flex-col items-center lg:items-start gap-5">
         <div className='flex flex-row items-center'>
           <div>
@@ -27,12 +27,10 @@ const Footer = () => {
             <h1 className={"text-xl " + julius_sans_one.className}>&nbsp;Genisys</h1> 
           </div>
         </div>
-          <p className="text-center lg:text-start">Via Risorgimento 74 <br/> Montoro (AV), 83025</p>
+          <p className="text-center lg:text-start">Via Cavallo 6 <br/> Torre del Greco (NA), 80059</p>
         </div>
-        <div className="flex flex-col items-center lg:items-start gap-3">
-          <p className="text-xl font-medium">Info Legali</p>
-          <p className="text-base">Termini e condizioni</p>
-          <p className="text-base">Attribuzioni</p>
+        <div className="lg:flex hidden flex-col items-center lg:items-start gap-3">
+
         </div>
         <div className="flex flex-col items-center justify-center lg:items-start gap-3">
           <p className="text-xl font-medium">Contattaci</p>
@@ -40,9 +38,9 @@ const Footer = () => {
           <p className="text-base">Contatti</p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-3">
-          <p className="text-xl font-medium">Prodotti</p>
-          <p className="text-base">Corsi</p>
-          <p className="text-base">Blog</p>
+          <p className="text-xl font-medium">Info Legali</p>
+          <p className="text-base">Termini e condizioni</p>
+          <p className="text-base">Attribuzioni</p>
         </div>
         <div className="flex flex-row justify-center items-center gap-5">
                 <BsFacebook className="text-white text-3xl text-slate-600"/>

@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Mission = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-20 max-w-[1200px] mx-auto">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-20 max-w-[1100px] mx-auto">
 
 
       {/* Div del testo */}
       <div className="max-w-[600px] flex flex-col lg:items-start gap-6">
         <p className="text-left text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold text-slate-800 lg:text-left">
-          La nostra mission e la nostra <span className="text-primary_green">cultura</span>
+          La nostra mission, <br/> la nostra <span className="text-primary_green">cultura</span>
         </p>
         <div className="flex flex-col gap-5 justify-center items-start">
         <div className="text-base sm:text-lg lg:text-xl font-light lg:text-left">

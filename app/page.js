@@ -8,6 +8,7 @@ import Image from "next/image";
 import MoreInfoModal from "@/components/MoreInfoModal";
 import Footer from "@/components/Footer";
 import Splashscreen from "@/components/Splashscreen";
+import FakeCta from "@/components/FakeCta";
 
 
 export default function Home() {
@@ -23,11 +24,11 @@ export default function Home() {
         <Hero/>    
       </section>
 
-      <section className="px-10 py-12 lg:py-16">
+      <section className="px-10 py-12 lg:py-20">
         <Values/>
       </section>
 
-      <section className="px-10 py-12 bg-primary_sunglow_transparent lg:py-16">
+      <section className="px-10 py-12 bg-primary_sunglow_transparent lg:py-24">
         <Mission/>
         {/* <MoreInfoModal /> */}
       </section>
@@ -39,7 +40,6 @@ export default function Home() {
       <section className="bg-primary_dark_seablue text-white py-12 lg:py-16">
         <Footer/>       
       </section>
-
 
       {/* <MoreInfoModal/> 
       Questa si deve aggiungere dopo. Devo vedere il fatto della Disclosure di headlessui*/}
