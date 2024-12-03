@@ -8,7 +8,7 @@ const Mission = () => {
 
       {/* Div del testo */}
       <div className="max-w-[600px] flex flex-col lg:items-start gap-6">
-        <p className="text-left text-3xl sm:text-xl md:text-2xl lg:text-5xl font-bold text-slate-800 lg:text-left">
+        <p className="text-left text-3xl sm:text-xl md:text-2xl lg:text-6xl font-bold text-slate-800 lg:text-left">
           La nostra mission, <br/> la nostra <span className="text-primary_green">cultura</span>
         </p>
         <div className="flex flex-col gap-5 justify-center items-start">

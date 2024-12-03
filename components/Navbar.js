@@ -10,7 +10,7 @@ const julius_sans_one = Julius_Sans_One({
 
 const Navbar = () => {
   return (
-        <div className="flex flex-row lg:justify-between items-center gap-5 pb-8 lg:pb-16">
+        <div className="flex flex-row lg:justify-between items-center gap-5 pb-8 lg:pb-10">
             <div className='flex flex-row items-center justify-center pl-8 lg:pl-10'>
               <div className='w-9 lg:w-[40px]'>
                 <Image
